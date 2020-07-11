@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sw {
+    border: 2px solid white;
+    margin: auto;
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tags h1 {
+    color: white;
+    display: inline-block;
+    width: 96px;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid white;
+}
+
+.heading {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.timer h1 {
+    color: black;
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    margin-top: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px
+}
+
+.hidden {
+    display: none;
+}

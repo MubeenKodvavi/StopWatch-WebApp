@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/69e83ec1a7.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="heading">Stop Watch</h1>
+    <div class=sw>
+        <div class="tags">
+            <h1>Min</h1>
+            <h1>Sec</h1>
+            <h1>MSec</h1>
+        </div>
+        <div class="timer">
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="msec">0</h1>
+        </div>
+        <div>
+            <button onclick="start()" id="start"><i class="fas fa-play"></i></button>
+            <button onclick="pause()" class="hidden" id="pause"><i class="fas fa-pause"></i></button>
+            <button onclick="stop()" class="hidden" id="stop"><i class="fas fa-stop"></i></button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
