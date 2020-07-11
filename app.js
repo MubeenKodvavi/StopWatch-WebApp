@@ -22,16 +22,6 @@ function timer() {
         secDisplay.innerHTML = sec;
     }
     msecDisplay.innerHTML = msec;
-    if (msec >= 100) {
-        sec++;
-        secDisplay.innerHTML = sec;
-        msec = 0;
-    }
-    if (sec >= 60) {
-        min++;
-        minDisplay.innerHTML = min;
-        sec = 0;
-    }
 }
 
 var startBtn = document.getElementById("start");
